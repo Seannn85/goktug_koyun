@@ -1,0 +1,29 @@
+{
+  "name": "goktug-koyun",
+  "version": "1.0.0",
+  "description": "Bu bir deneme projesidir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "goktug": "echo 'Benim adim GOktug'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "paket"
+  ],
+  "author": "Goktug Koyun",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.3.3",
+    "nodemailer": "^6.7.5",
+    "simple.js": "^0.1.7"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "repository":{
+    "type":"git",
+    "url": "https://github.com/Seannn85/goktug_koyun.git"
+  }
+}
